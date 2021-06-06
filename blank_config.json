@@ -1,0 +1,38 @@
+{
+    "meta":{
+        "links":{
+            "subject_1":"http://example.com/class1",
+            "subject_2":"http://example.com/class2",
+        },
+        "delay": 10 
+    },
+    "timing":{
+        "mon":{
+            "status":true,
+            "data":{}
+        },
+        "tue":{
+            "status":true,
+            "data":{}
+        },
+        "wed":{
+            "status":true,
+            "data":{}
+        },
+        "thu":{
+            "status":true,
+            "data":{}
+        },
+        "fri":{
+            "status":true,
+            "data":{}
+        },
+        "sat":{
+            "status":true,
+            "data":{}
+        },
+        "sun":{
+            "status":false
+        }
+    }
+}
