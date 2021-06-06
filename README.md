@@ -27,4 +27,5 @@ Created by `HARRY TOM` [Portfolio](http://harrytom.ml/), [GitHub](https://github
 Created with : [moment.js](https://momentjs.com/) and [JQuery](https://jquery.com/)
 
 ##maybe..
-You can create a short link for it if you think that github page link is so long as the great wall of china. click [here (tiny.cc)](http://tiny.cc/)
+1) You can create a short link for it if you think that github page link is so long as the great wall of china. click [here (tiny.cc)](http://tiny.cc/)
+2) If you dont want to edit the default timetable in it, just use use the blank_config.json and rename it into `config.json` (it should be in the root folder)
