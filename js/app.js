@@ -48,6 +48,8 @@ $.get("config.json", function(data){
             }
  
         }
+    }else{
+        window.location.replace("noclass.html")
     }
 })
 
