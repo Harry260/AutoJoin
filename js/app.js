@@ -64,7 +64,6 @@ function splitat(str, at){
 function reduceDelayTime(timeString){
     var time = moment(timeString)
     var r = moment(time).subtract(delay, "minutes");
-    alert(r)
     return r
 }
 
