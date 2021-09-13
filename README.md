@@ -3,7 +3,7 @@ A javascript base project to automatically open class according to timetable
 
 #Usage
 
-NOTE: THE DELAY TIME WAS REPORTED THAT IT WAS GLITCHED : So it has been disabled
+```NOTE: THE DELAY TIME WAS REPORTED THAT IT WAS GLITCHED : So it has been disabled```
 
 1) Fork this repo for github page or clone thi repo and use it locally.
 2) Setup `config.json` file for timetable.
