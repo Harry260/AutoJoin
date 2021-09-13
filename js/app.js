@@ -43,13 +43,13 @@ $.get("config.json", function(data){
             else{
                 if(loopstatus.loop === loopstatus.length){
                     //Callback that no time is in the range
-                    window.location.replace("noclass.html")
+                    //window.location.replace("noclass.html")
                 } 
             }
  
         }
     }else{
-        window.location.replace("noclass.html")
+        //window.location.replace("noclass.html")
     }
 })
 
@@ -60,7 +60,7 @@ function splitat(str, at){
     return out;
 }
 
-//Function to reduce the delay time from the prop
+//Function to reduce the delay time from the prop [NOT WORKING!]
 function reduceDelayTime(timeString){
     var time = moment(timeString)
     var r = moment(time).subtract(delay, "minutes");
@@ -75,7 +75,7 @@ function returnStatus(a, b){
     beforeTime = moment(a, format),
     afterTime = moment(b, format);
     //Check status
-    if (time.isBetween(reduceDelayTime(beforeTime), afterTime)) {
+    if (time.isBetween(beforeTime, afterTime)) {
         return true;
     } else {
         return false;
