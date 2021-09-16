@@ -41,15 +41,16 @@ $.get("config.json", function(data){
                 window.location.replace(link);
             }
             else{
-                if(loopstatus.loop === loopstatus.length){
-                    //Callback that no time is in the range
-                    //window.location.replace("noclass.html")
-                } 
+                setTimeout(function(){
+                   if(loopstatus.loop === loopstatus.length){                  
+                      window.location.replace("noclass.html")
+                   }
+               }, 2000)
             }
  
         }
     }else{
-        //window.location.replace("noclass.html")
+        window.location.replace("noclass.html")
     }
 })
 
